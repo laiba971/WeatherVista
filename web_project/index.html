@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVista</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="landing-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">WeatherVista</div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="login.html">Login</a>
+                    <a href="signup.html" class="btn-signup">Sign Up</a>
+                    <button class="close-btn" id="closeMenu"><i class="fas fa-times"></i></button>
+                </div>
+                <button class="menu-toggle" id="openMenu"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Accurate Weather Forecasts</h1>
+                <p>Get instant weather updates and forecasts tailored to your location. Stay prepared, rain or shine!</p>
+                <div class="cta-buttons">
+                    <a href="signup.html" class="btn btn-primary">Get Started</a>
+                    <a href="#features" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About WeatherVista</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>WeatherVista provides hyper-local weather forecasts with industry-leading accuracy. Our platform combines data from multiple sources to give you the most reliable weather information.</p>
+                    <p>Founded in 2025, we're committed to helping people make better decisions based on weather conditions.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/weather_station.jpg" alt="Weather Station">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Real-Time Data</h3>
+                    <p>Get updates every 10 minutes with our live weather tracking system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Global Coverage</h3>
+                    <p>Accurate forecasts for over 200,000 cities worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                    <h3>Severe Alerts</h3>
+                    <p>Instant notifications for dangerous weather conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>WeatherVista</h3>
+                    <p>Providing accurate weather forecasts since 2025.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WeatherVista. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
